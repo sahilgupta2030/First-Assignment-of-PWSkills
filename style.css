@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Rose', cursive;
+    color: #ffa500;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/2290070/pexels-photo-2290070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Header */
+/* Logo */
+nav{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    margin: 10px 40px 0 20px;
+}
+/* Menu Bar */
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    gap: 55px;
+    font-size: 25px;
+    font-weight: 500;
+}
+nav li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+/* Buttom */
+button{
+    background-color: #f21616;
+    color: #ffffff;
+    padding: 8px 20px;
+    margin-left: 250px;
+    border: none;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #f21616;
+    cursor: pointer;
+}
+/* Main Section */
+.heading{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 63px;
+    padding: 60px;
+}
+.menu-button button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.scroll img{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
